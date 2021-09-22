@@ -28,7 +28,7 @@ Components that require a List (e.g., Menu, Select, Navigation Drawer) still use
 the deprecated version. Otherwise, we encourage you to use the new version in
 your projects.
 
-Note that both new and old versions share the same JavaScript component and 
+Note that both new and old versions share the same JavaScript component and
 imports. *However, there are differences in class names and DOM structure:* the
 old version uses class names with a `mdc-deprecated-list` prefix (e.g.,
 `mdc-deprecated-list-item`) whereas the new version uses the typical `mdc-list`
@@ -253,7 +253,7 @@ OR
     <span class="mdc-deprecated-list-item__text">Item 2 - List 1</span>
   </li>
 </ul>
-<hr class="mdc-deprecated-list-divider">
+<hr class="mdc-deprecated-list-divider" />
 <ul class="mdc-deprecated-list">
   <li class="mdc-deprecated-list-item">
     <span class="mdc-deprecated-list-item__text">Item 1 - List 2</span>
@@ -330,7 +330,7 @@ When rendering list radio group with pre-selected radio button the selected list
               type="radio"
               id="demo-list-radio-item-1"
               name="demo-list-radio-item-group"
-              value="1">
+              value="1" />
         <div class="mdc-radio__background">
           <div class="mdc-radio__outer-circle"></div>
           <div class="mdc-radio__inner-circle"></div>
@@ -348,7 +348,7 @@ When rendering list radio group with pre-selected radio button the selected list
               id="demo-list-radio-item-2"
               name="demo-list-radio-item-group"
               value="2"
-              checked>
+              checked="checked" />
         <div class="mdc-radio__background">
           <div class="mdc-radio__outer-circle"></div>
           <div class="mdc-radio__inner-circle"></div>
@@ -365,7 +365,7 @@ When rendering list radio group with pre-selected radio button the selected list
               type="radio"
               id="demo-list-radio-item-3"
               name="demo-list-radio-item-group"
-              value="3">
+              value="3" />
         <div class="mdc-radio__background">
           <div class="mdc-radio__outer-circle"></div>
           <div class="mdc-radio__inner-circle"></div>
@@ -410,7 +410,7 @@ When rendering list with checkbox items all pre-selected list items should conta
             <input type="checkbox"
                     class="mdc-checkbox__native-control"
                     id="demo-list-checkbox-item-2"
-                    checked />
+                    checked="checked" />
             <div class="mdc-checkbox__background">
               <svg class="mdc-checkbox__checkmark"
                     viewBox="0 0 24 24">
@@ -459,16 +459,16 @@ CSS Class | Description
 `mdc-deprecated-list--dense` | Optional, styles the density of the list, making it appear more compact.
 `mdc-deprecated-list--textual-list` | Optional, configures lists that start with text
 (e.g., do not have a leading tile).
-`mdc-deprecated-list--avatar-list` | Optional, configures the leading tile of each row to 
+`mdc-deprecated-list--avatar-list` | Optional, configures the leading tile of each row to
 display avatars.
-`mdc-deprecated-list--icon-list` | Optional, configures the leading tile of each row to 
+`mdc-deprecated-list--icon-list` | Optional, configures the leading tile of each row to
 display icons.
-`mdc-deprecated-list--image-list` | Optional, configures the leading tile of each row to 
+`mdc-deprecated-list--image-list` | Optional, configures the leading tile of each row to
 display images.
 `mdc-deprecated-list--thumbnail-list` | Optional, configures the leading tile of each row to
 display smaller images (this is analogous to an avatar list but the image will
 not be rounded).
-`mdc-deprecated-list--video-list` | Optional, configures the leading tile of each row to 
+`mdc-deprecated-list--video-list` | Optional, configures the leading tile of each row to
 display videos.
 `mdc-deprecated-list--two-line` | Optional, modifier to style list with two lines (primary and secondary lines).
 `mdc-deprecated-list-item` | Mandatory, for the list item element.
@@ -481,13 +481,13 @@ display videos.
 `mdc-deprecated-list-item__graphic` | Optional, the first tile in the row (in LTR
 languages, the first column of the list item). Defaults to an icon, but renders
 as an avatar in an avatar list, or an image or video in the corresponding list.
-`mdc-deprecated-list-item__meta`	| Optional, the last tile in the row (in LTR languages, 
+`mdc-deprecated-list-item__meta`	| Optional, the last tile in the row (in LTR languages,
 the last column of the list item). Typically small text, icon, or image.
 `mdc-deprecated-list-group` | Optional, wrapper around two or more mdc-deprecated-list elements to be grouped together.
 `mdc-deprecated-list-group__subheader` |	Optional, heading text displayed above each list in a group.
 `mdc-deprecated-list-divider` | Optional, for list divider element.
 `mdc-deprecated-list-divider--padded` | Optional, leaves gaps on each side of divider to
-match padding of `list-item__meta`. Deprecated: use the more flexible "inset-" 
+match padding of `list-item__meta`. Deprecated: use the more flexible "inset-"
 classes, instead.
 `mdc-deprecated-list-divider--inset` | Optional, increases the leading and trailing margins
 of the divider so that it doesn't intersect with an avatar. Deprecated: use the

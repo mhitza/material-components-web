@@ -70,7 +70,7 @@ To meet this requirement, add the `mdc-radio--touch` class to your radio as foll
 ```html
 <div class="mdc-touch-target-wrapper">
   <div class="mdc-radio mdc-radio--touch">
-    <input class="mdc-radio__native-control" type="radio" id="radio-1" name="radios" checked>
+    <input class="mdc-radio__native-control" type="radio" id="radio-1" name="radios" checked="checked" />
     <div class="mdc-radio__background">
       <div class="mdc-radio__outer-circle"></div>
       <div class="mdc-radio__inner-circle"></div>
@@ -91,7 +91,7 @@ We recommend using MDC Radio with [MDC Form Field](../mdc-form-field) for enhanc
 ```html
 <div class="mdc-form-field">
   <div class="mdc-radio">
-    <input class="mdc-radio__native-control" type="radio" id="radio-1" name="radios" checked>
+    <input class="mdc-radio__native-control" type="radio" id="radio-1" name="radios" checked="checked" />
     <div class="mdc-radio__background">
       <div class="mdc-radio__outer-circle"></div>
       <div class="mdc-radio__inner-circle"></div>
@@ -118,7 +118,7 @@ Disabled radio buttons cannot be interacted with and have no visual interaction 
 ```html
 <div class="mdc-form-field">
   <div class="mdc-radio mdc-radio--disabled">
-    <input class="mdc-radio__native-control" type="radio" id="radio-1" name="radios" disabled>
+    <input class="mdc-radio__native-control" type="radio" id="radio-1" name="radios" disabled="disabled" />
     <div class="mdc-radio__background">
       <div class="mdc-radio__outer-circle"></div>
       <div class="mdc-radio__inner-circle"></div>

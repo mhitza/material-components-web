@@ -61,7 +61,7 @@ const textField = new MDCTextField(document.querySelector('.mdc-text-field'));
 <label class="mdc-text-field mdc-text-field--filled">
   <span class="mdc-text-field__ripple"></span>
   <span class="mdc-floating-label" id="my-label-id">Hint text</span>
-  <input class="mdc-text-field__input" type="text" aria-labelledby="my-label-id">
+  <input class="mdc-text-field__input" type="text" aria-labelledby="my-label-id" />
   <span class="mdc-line-ripple"></span>
 </label>
 ```
@@ -81,7 +81,7 @@ const textField = new MDCTextField(document.querySelector('.mdc-text-field'));
     </span>
     <span class="mdc-notched-outline__trailing"></span>
   </span>
-  <input type="text" class="mdc-text-field__input" aria-labelledby="my-label-id">
+  <input type="text" class="mdc-text-field__input" aria-labelledby="my-label-id" />
 </label>
 ```
 
@@ -131,7 +131,7 @@ Add class name `mdc-text-field--no-label` and remove the label element from the 
 ```html
 <label class="mdc-text-field mdc-text-field--filled mdc-text-field--no-label">
   <span class="mdc-text-field__ripple"></span>
-  <input class="mdc-text-field__input" type="text" placeholder="Placeholder text" aria-label="Label">
+  <input class="mdc-text-field__input" type="text" placeholder="Placeholder text" aria-label="Label" />
   <span class="mdc-line-ripple"></span>
 </label>
 ```
@@ -170,7 +170,7 @@ To disable the text field, add the `disabled` attribute to the `<input>` element
 <label class="mdc-text-field mdc-text-field--filled mdc-text-field--disabled">
   <span class="mdc-text-field__ripple"></span>
   <span class="mdc-floating-label" id="my-label-id">Disabled text field</span>
-  <input class="mdc-text-field__input" type="text" aria-labelledby="my-label-id" disabled>
+  <input class="mdc-text-field__input" type="text" aria-labelledby="my-label-id" disabled="disabled" />
   <span class="mdc-line-ripple"></span>
 </label>
 ```
@@ -188,7 +188,7 @@ which is immediate sibling of `.mdc-text-field`. See [here](helper-text/) for mo
   <input class="mdc-text-field__input" type="text"
          aria-labelledby="my-label-id"
          aria-controls="my-helper-id"
-         aria-describedby="my-helper-id">
+         aria-describedby="my-helper-id" />
   <span class="mdc-line-ripple"></span>
 </label>
 <div class="mdc-text-field-helper-line">
@@ -206,7 +206,7 @@ See [here](character-counter/) for more information on using character counter.
 <label class="mdc-text-field mdc-text-field--filled">
   <span class="mdc-text-field__ripple"></span>
   <span class="mdc-floating-label" id="my-label-id">My Label</span>
-  <input class="mdc-text-field__input" type="text" aria-labelledby="my-label-id" maxlength="10">
+  <input class="mdc-text-field__input" type="text" aria-labelledby="my-label-id" maxlength="10" />
   <span class="mdc-line-ripple"></span>
 </label>
 <div class="mdc-text-field-helper-line">
@@ -271,7 +271,7 @@ A prefix, suffix, or both can be added within the default or outlined variants o
   <span class="mdc-text-field__ripple"></span>
   <span class="mdc-floating-label" id="my-label-id">Currency Value</span>
   <span class="mdc-text-field__affix mdc-text-field__affix--prefix">$</span>
-  <input class="mdc-text-field__input" type="text" aria-labelledby="my-label-id">
+  <input class="mdc-text-field__input" type="text" aria-labelledby="my-label-id" />
   <span class="mdc-text-field__affix mdc-text-field__affix--suffix">.00</span>
   <span class="mdc-line-ripple"></span>
 </label>

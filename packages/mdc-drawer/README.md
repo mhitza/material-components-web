@@ -231,7 +231,7 @@ MDC Web does not currently support bottom navigation drawers.
         <span class="mdc-deprecated-list-item__text">Drafts</span>
       </a>
 
-      <hr class="mdc-deprecated-list-divider">
+      <hr class="mdc-deprecated-list-divider" />
       <h6 class="mdc-deprecated-list-group__subheader">Labels</h6>
       <a class="mdc-deprecated-list-item" href="#">
         <span class="mdc-deprecated-list-item__ripple"></span>

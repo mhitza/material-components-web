@@ -199,7 +199,7 @@ If the user confirms a choice, it’s carried out. Otherwise, the user can dismi
                        type="radio"
                        id="test-dialog-baseline-confirmation-radio-1"
                        name="test-dialog-baseline-confirmation-radio-group"
-                       checked>
+                       checked="checked" />
                 <div class="mdc-radio__background">
                   <div class="mdc-radio__outer-circle"></div>
                   <div class="mdc-radio__inner-circle"></div>

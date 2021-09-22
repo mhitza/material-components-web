@@ -120,7 +120,7 @@ The row selection feature allows users to select table rows via row checkboxes. 
       <thead>
         <tr class="mdc-data-table__header-row">
           <th class="mdc-data-table__header-cell mdc-data-table__header-cell--checkbox" role="columnheader" scope="col">
-            <div class="mdc-checkbox mdc-data-table__header-row-checkbox mdc-checkbox--selected">
+            <div class="mdc-checkbox mdc-data-table__header-row-checkbox">
               <input type="checkbox" class="mdc-checkbox__native-control" aria-label="Toggle all rows"/>
               <div class="mdc-checkbox__background">
                 <svg class="mdc-checkbox__checkmark" viewBox="0 0 24 24">
@@ -163,7 +163,7 @@ The row selection feature allows users to select table rows via row checkboxes. 
         <tr data-row-id="u1" class="mdc-data-table__row mdc-data-table__row--selected" aria-selected="true">
           <td class="mdc-data-table__cell mdc-data-table__cell--checkbox">
             <div class="mdc-checkbox mdc-data-table__row-checkbox mdc-checkbox--selected">
-              <input type="checkbox" class="mdc-checkbox__native-control" checked aria-labelledby="u1"/>
+              <input type="checkbox" class="mdc-checkbox__native-control" checked="checked" aria-labelledby="u1"/>
               <div class="mdc-checkbox__background">
                 <svg class="mdc-checkbox__checkmark" viewBox="0 0 24 24">
                   <path class="mdc-checkbox__checkmark-path" fill="none" d="M1.73,12.91 8.1,19.28 22.79,4.59" />
@@ -183,7 +183,7 @@ The row selection feature allows users to select table rows via row checkboxes. 
         <tr data-row-id="u2" class="mdc-data-table__row mdc-data-table__row--selected" aria-selected="true">
           <td class="mdc-data-table__cell mdc-data-table__cell--checkbox">
             <div class="mdc-checkbox mdc-data-table__row-checkbox mdc-checkbox--selected">
-              <input type="checkbox" class="mdc-checkbox__native-control" checked aria-labelledby="u2"/>
+              <input type="checkbox" class="mdc-checkbox__native-control" checked="checked" aria-labelledby="u2"/>
               <div class="mdc-checkbox__background">
                 <svg class="mdc-checkbox__checkmark" viewBox="0 0 24 24">
                   <path class="mdc-checkbox__checkmark-path" fill="none" d="M1.73,12.91 8.1,19.28 22.79,4.59" />
@@ -344,10 +344,12 @@ user change the rows per page (page size) and navigate between data table pages.
         <div class="mdc-data-table__pagination-total">
           1‑10 of 100
         </div>
-        <button class="mdc-icon-button material-icons mdc-data-table__pagination-button" data-first-page="true" disabled>
+        <button class="mdc-icon-button material-icons mdc-data-table__pagination-button"
+        data-first-page="true" disabled="disabled">
           <div class="mdc-button__icon">first_page</div>
         </button>
-        <button class="mdc-icon-button material-icons mdc-data-table__pagination-button" data-prev-page="true" disabled>
+        <button class="mdc-icon-button material-icons mdc-data-table__pagination-button" data-prev-page="true"
+        disabled="disabled">
           <div class="mdc-button__icon">chevron_left</div>
         </button>
         <button class="mdc-icon-button material-icons mdc-data-table__pagination-button" data-next-page="true">

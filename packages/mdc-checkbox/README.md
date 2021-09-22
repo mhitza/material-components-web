@@ -137,7 +137,7 @@ Note that `mdc-checkbox--disabled` is necessary on the root element of CSS-only 
   <input type="checkbox"
          id="basic-disabled-checkbox"
          class="mdc-checkbox__native-control"
-         disabled />
+         disabled="disabled" />
   <div class="mdc-checkbox__background">
     <svg class="mdc-checkbox__checkmark"
          viewBox="0 0 24 24">

@@ -103,7 +103,8 @@ This logic is handled by the `MDCSwitch.disabled` property, but you'll want to
 avoid a FOUC by initially adding this attribute.
 
 ```html
-<button id="disabled-switch" class="mdc-switch mdc-switch--unselected" type="button" role="switch" aria-checked="false" disabled>
+<button id="disabled-switch" class="mdc-switch mdc-switch--unselected" type="button" role="switch"
+aria-checked="false" disabled="disabled">
   <div class="mdc-switch__track"></div>
   <div class="mdc-switch__handle-track">
     <div class="mdc-switch__handle">

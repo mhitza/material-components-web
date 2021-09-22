@@ -92,7 +92,8 @@ element.
 
 ```html
 <div class="mdc-slider">
-  <input class="mdc-slider__input" type="range" min="0" max="100" value="50" name="volume" aria-label="Continuous slider demo">
+  <input class="mdc-slider__input" type="range" min="0" max="100" value="50" name="volume"
+  aria-label="Continuous slider demo" />
   <div class="mdc-slider__track">
     <div class="mdc-slider__track--inactive"></div>
     <div class="mdc-slider__track--active">
@@ -143,7 +144,8 @@ To create a discrete slider, add the following:
 
 ```html
 <div class="mdc-slider mdc-slider--discrete">
-  <input class="mdc-slider__input" type="range" min="0" max="100" value="50" name="volume" step="10" aria-label="Discrete slider demo">
+  <input class="mdc-slider__input" type="range" min="0" max="100" value="50" name="volume" step="10"
+  aria-label="Discrete slider demo" />
   <div class="mdc-slider__track">
     <div class="mdc-slider__track--inactive"></div>
     <div class="mdc-slider__track--active">
@@ -180,7 +182,8 @@ To add tick marks to a discrete slider, add the following:
 
 ```html
 <div class="mdc-slider mdc-slider--discrete mdc-slider--tick-marks">
-  <input class="mdc-slider__input" type="range" min="0" max="100" value="50" name="volume" step="10" aria-label="Discrete slider with tick marks demo">
+  <input class="mdc-slider__input" type="range" min="0" max="100" value="50" name="volume" step="10"
+  aria-label="Discrete slider with tick marks demo" />
   <div class="mdc-slider__track">
     <div class="mdc-slider__track--inactive"></div>
     <div class="mdc-slider__track--active">
@@ -259,7 +262,8 @@ To disable a slider, add the following:
 
 ```html
 <div class="mdc-slider mdc-slider--disabled">
-  <input class="mdc-slider__input" type="range" min="0" max="100" value="50" step="10" disabled name="volume" aria-label="Disabled slider demo">
+  <input class="mdc-slider__input" type="range" min="0" max="100" value="50" step="10" disabled="disabled"
+  name="volume" aria-label="Disabled slider demo" />
   <div class="mdc-slider__track">
     <div class="mdc-slider__track--inactive"></div>
     <div class="mdc-slider__track--active">

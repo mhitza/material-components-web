@@ -62,7 +62,7 @@ In text field:
   <span class="mdc-text-field__ripple"></span>
   <span class="mdc-floating-label" id="my-label-id">Your Name</span>
   <i class="material-icons mdc-text-field__icon mdc-text-field__icon--leading" tabindex="0" role="button">event</i>
-  <input class="mdc-text-field__input" type="text" aria-labelledby="my-label-id">
+  <input class="mdc-text-field__input" type="text" aria-labelledby="my-label-id" />
   <span class="mdc-line-ripple"></span>
 </label>
 ```
@@ -91,7 +91,7 @@ In text field:
 <label class="mdc-text-field mdc-text-field--filled mdc-text-field--with-trailing-icon">
   <span class="mdc-text-field__ripple"></span>
   <span class="mdc-floating-label" id="my-label-id">Your Name</span>
-  <input class="mdc-text-field__input" type="text" aria-labelledby="my-label-id">
+  <input class="mdc-text-field__input" type="text" aria-labelledby="my-label-id" />
   <i class="material-icons mdc-text-field__icon mdc-text-field__icon--trailing" tabindex="0" role="button">event</i>
   <span class="mdc-line-ripple"></span>
 </label>
@@ -122,9 +122,9 @@ In text field:
   <span class="mdc-text-field__ripple"></span>
   <span class="mdc-floating-label" id="my-label-id">Phone Number</span>
   <i class="material-icons mdc-text-field__icon mdc-text-field__icon--leading">phone</i>
-  <input class="mdc-text-field__input" type="text" aria-labelledby="my-label-id">
+  <input class="mdc-text-field__input" type="text" aria-labelledby="my-label-id" />
   <i class="material-icons mdc-text-field__icon mdc-text-field__icon--trailing" tabindex="0" role="button">event</i>
-  <div class="mdc-line-ripple"></div>
+  <span class="mdc-line-ripple"></span>
 </label>
 ```
 

@@ -39,7 +39,7 @@ The HTML structure for a Standard Image List is as follows:
 <ul class="mdc-image-list my-image-list">
   <li class="mdc-image-list__item">
     <div class="mdc-image-list__image-aspect-container">
-      <img class="mdc-image-list__image" src="...">
+      <img class="mdc-image-list__image" src="..." />
     </div>
     <div class="mdc-image-list__supporting">
       <span class="mdc-image-list__label">Text label</span>
@@ -80,7 +80,7 @@ combination of aspect ratios.
 ```html
 <ul class="mdc-image-list mdc-image-list--masonry my-masonry-image-list">
   <li class="mdc-image-list__item">
-    <img class="mdc-image-list__image" src="...">
+    <img class="mdc-image-list__image" src="..." />
     <div class="mdc-image-list__supporting">
       <span class="mdc-image-list__label">Text label</span>
     </div>

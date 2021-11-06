@@ -316,7 +316,7 @@ Un-styled Content (**FOUC**).
   <span class="mdc-floating-label mdc-floating-label--float-above" id="my-label-id">
     Label in correct place
   </span>
-  <input class="mdc-text-field__input" type="text" aria-labelledby="my-label-id" value="Pre-filled value">
+  <input class="mdc-text-field__input" type="text" aria-labelledby="my-label-id" value="Pre-filled value" />
   <span class="mdc-line-ripple"></span>
 </label>
 ```

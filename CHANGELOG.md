@@ -3,6 +3,129 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [14.0.0](https://github.com/mhitza/material-components-web/compare/v12.0.0...v14.0.0) (2021-12-05)
+
+
+### Bug Fixes
+
+* **banner:** Adjusting theme api selectors to use `mdc-button`. ([15981e9](https://github.com/mhitza/material-components-web/commit/15981e9d95097895247fbcbd6ad9ad14c46be20e))
+* **banner:** Correcting incorrect theme values passed through to button's `theme-mixin`. ([0de2f2e](https://github.com/mhitza/material-components-web/commit/0de2f2edcb53e05a97ae79c7f5fc181033fbb0cc))
+* **banner:** exclude source from npm package ([#7381](https://github.com/mhitza/material-components-web/issues/7381)) ([d48a017](https://github.com/mhitza/material-components-web/commit/d48a01771a5c5b080179ac34e4ef34146de5e209)), closes [#7360](https://github.com/mhitza/material-components-web/issues/7360)
+* **banner:** Removing `action-<state>-label-text-color` values from MDC `light-theme` map. ([d97f8f1](https://github.com/mhitza/material-components-web/commit/d97f8f133c7d59bbddc49fe39dd9c714bcbb01d4))
+* **button:** cleanup outlined button theme keys ([28d0d75](https://github.com/mhitza/material-components-web/commit/28d0d75bb554be14171de19f50d082f837125f37))
+* **button:** fix touch target reset in context of link buttons ([3b8d442](https://github.com/mhitza/material-components-web/commit/3b8d4429e3373661fef202613389e4f2f00b33ad))
+* **button:** remove negative padding around icons ([d470693](https://github.com/mhitza/material-components-web/commit/d4706933f473925ec3a1ce6f7152208b31664538))
+* **button:** remove rem/em transformers from typography theme-styles ([a395972](https://github.com/mhitza/material-components-web/commit/a395972cfaf2260da9f50875a8fe772cc3c69d83))
+* **button:** stack ripple behind content ([e1e69fd](https://github.com/mhitza/material-components-web/commit/e1e69fd8e5fb5624173bc3836f92e6824596ad04))
+* **checkbox:** move forced-colors theme out of static styles ([bbd1126](https://github.com/mhitza/material-components-web/commit/bbd11268f0ea4fd45205a642f1d26a4c4ff34e05))
+* **density:** typo in variable exports ([6df682e](https://github.com/mhitza/material-components-web/commit/6df682e746d1c417fe00376ba6ec33bd72159757))
+* **dialog:** Render dividers in Firefox 94 on Windows HCM ([fae6c65](https://github.com/mhitza/material-components-web/commit/fae6c652d7debc3e2875ab9049d806513ddc2421))
+* **dom:** Support providing an owner document for announcer messages. ([6236f35](https://github.com/mhitza/material-components-web/commit/6236f3576a7f39f452175206f96c08b08315444b))
+* **elevation:** reduce warnings when not providing elevation tokens ([adb9f1a](https://github.com/mhitza/material-components-web/commit/adb9f1ad8c85e016bbe714d9b8f2d7d28e610f91))
+* **fab:** Add focus ring in HCM. ([d57ec74](https://github.com/mhitza/material-components-web/commit/d57ec74c7e9afe5db07162202e6f05b28dd581db))
+* **focus-ring:** add 2d padding customizability, RTL bugfix ([f81fb1d](https://github.com/mhitza/material-components-web/commit/f81fb1d232901c17d5794499c26e746ccab1af19))
+* **focus-ring:** ignore pointer events ([3ef470e](https://github.com/mhitza/material-components-web/commit/3ef470efe6f1d213935dca37ad213030cdd30d88))
+* **iconbutton:** Fix icon button theme keys/light theme values based on updated tokens. ([42d175e](https://github.com/mhitza/material-components-web/commit/42d175efc20e9b36eb86a843b23a60626d36e065))
+* **iconbutton:** Set icon button ripple z-index to -1. ([586e740](https://github.com/mhitza/material-components-web/commit/586e740ddcaa674c409d68ab5faf9ee8c61e2d91))
+* **list:** Remove conflicting validation for checkbox list in setEnabled ([353ca7e](https://github.com/mhitza/material-components-web/commit/353ca7e9f21b3589a17d25d8892198cba811dd13))
+* **menu:** apply elevation overlay to new lists ([0ad12ed](https://github.com/mhitza/material-components-web/commit/0ad12ed3cffe78a27c7005e2ed9b83643ebb5114))
+* **menusurface:** Add a getOwnerDocument() method to MDCMenuSurfaceAdapter to provide a reference to the document that owns the menu surface DOM element. ([3486659](https://github.com/mhitza/material-components-web/commit/348665978ce73694ad4518626dd70cdf5b984113))
+* **sass:** Wrap templated calc expressions in strings ([818f4ee](https://github.com/mhitza/material-components-web/commit/818f4ee93de968dfaa9d64929b3edf2d9f8dbe01)), closes [#7391](https://github.com/mhitza/material-components-web/issues/7391)
+* **select:** revert down/up arrow on anchor changing selected index ([43d08ba](https://github.com/mhitza/material-components-web/commit/43d08ba77e44dffbca99194ee18dbd202c8684f7))
+* **slider:** Reorder such that dragstart event is emitted before any other events when handling drag start. ([877e3fb](https://github.com/mhitza/material-components-web/commit/877e3fb0dbdaf06cf3a9b4fb0fa731df2093901c))
+* **slider:** Replace `innerHTML` with `firstChild` ([37d4db8](https://github.com/mhitza/material-components-web/commit/37d4db86667c967ba173e318a124b72109cc1bb5))
+* **switch:** add pointer cursor ([12f5622](https://github.com/mhitza/material-components-web/commit/12f5622e14b68c12542cb2bf7236c5a1f5492add))
+* **switch:** Restore Firefox 94 HCM outlines ([39cf14b](https://github.com/mhitza/material-components-web/commit/39cf14bc3b0ef053219328d36faaf2636e0f77f4))
+* **textfield:** Fix breaking tests due to no valid pointerId being associated with pointer events. ([15db4f1](https://github.com/mhitza/material-components-web/commit/15db4f1641bd3657ed230afacb41da84fb1077bc))
+* Fix compilation issues with TypeScript 4.4 ([7246447](https://github.com/mhitza/material-components-web/commit/72464476cea3755fbcbb64df832e9933ea7b1170))
+* Fix missing $ripple-target param for ripple mixin ([1340ee9](https://github.com/mhitza/material-components-web/commit/1340ee9f7507e6653537d081c53826b5c25b3e22))
+* Remove /** [@override](https://github.com/override) */ tags from TypeScript code. ([c3cdff0](https://github.com/mhitza/material-components-web/commit/c3cdff07b59adb0f44b40dbbca2cf05868138528))
+* **switch:** distribute correct css ([#7292](https://github.com/mhitza/material-components-web/issues/7292)) ([7b6bcb8](https://github.com/mhitza/material-components-web/commit/7b6bcb85874e81f33956d1ec544aedcdc882ffed))
+* **switch:** elevation theme custom properties not working ([2865629](https://github.com/mhitza/material-components-web/commit/28656298a9c01bd585fdb995be7aa96d3c3395e7))
+* **switch:** use correct colors for icons in all HCM themes ([d86fb6f](https://github.com/mhitza/material-components-web/commit/d86fb6facd014e2c0c1a88108ddbb59595dea5ac))
+* **theme:** ensure state selectors negate properly ([7249a30](https://github.com/mhitza/material-components-web/commit/7249a3060c6b15eef338b44b77065b47e0b26d52))
+* **tooltip:** Add a getActiveElement() method to MDCTooltipAdapter to delegate getting the active element from the correct document. ([e334676](https://github.com/mhitza/material-components-web/commit/e3346766f22b23b6c1e04cb2821565d388d57054))
+* **tooltip:** Adjust tooltip `focusout` handler. Ensures that interactive tooltips remain open when ChromeVox uses linear navigation to read non-focusable content inside the tooltip. ([7c96e6b](https://github.com/mhitza/material-components-web/commit/7c96e6b98a25839d249e1d56478e919564b5ff07))
+* **tooltip:** allow the Mac zoom service to access plain tooltip contents ([510cf90](https://github.com/mhitza/material-components-web/commit/510cf90f289177cf148b2d72cdb773047410731b))
+* **tooltip:** non-persistent tooltips disappear on scroll ([1f9259b](https://github.com/mhitza/material-components-web/commit/1f9259b9d7821181d8655537cf80e95b9856dd7c))
+* update combined mdc package to use new switch CSS ([077dcfc](https://github.com/mhitza/material-components-web/commit/077dcfcfe483b8631f51cc16a89557d056b4db58)), closes [#7304](https://github.com/mhitza/material-components-web/issues/7304)
+
+
+### Code Refactoring
+
+* **fab:** Deprecate legacy Fab theme mixins ([83bdd02](https://github.com/mhitza/material-components-web/commit/83bdd022246c1699de71346d5c162e1ded5a0836))
+* **iconbutton:** Forward only theme mixins from MDC icon button index module. ([0a90693](https://github.com/mhitza/material-components-web/commit/0a906930027e2b55054be08aa8ce0d48dec8c25b))
+* **theme:** Rename validate-keys() to validate-theme() ([2fb068f](https://github.com/mhitza/material-components-web/commit/2fb068fb0f7a1b0e038ede3a2ab27a972e5b2ee4))
+
+
+### Features
+
+* **button:** add custom props to outlined button theme-styles ([bf405d2](https://github.com/mhitza/material-components-web/commit/bf405d22ae54eef77bbe437228540900aad2f0e0))
+* **button:** add custom props to protected button theme-styles ([4ca11fe](https://github.com/mhitza/material-components-web/commit/4ca11fe76395824dff6b3e35d954af817ace1591))
+* **button:** add custom props to text button theme-styles ([3dd6110](https://github.com/mhitza/material-components-web/commit/3dd61109132cf17b5a92a941ecc0f03b0a1cc8d5))
+* **button:** add missing transitions to box-shadow/border ([3b92903](https://github.com/mhitza/material-components-web/commit/3b9290351308626b4699e2cbdaeb4dc7f04ce1d9))
+* **button:** add static-styles-without-ripple for MWC consumption ([f4241a4](https://github.com/mhitza/material-components-web/commit/f4241a42a49d130fcf5b5a9df2239276628a85f1))
+* **button:** add theme mixin that emits custom properties instead ([4c40586](https://github.com/mhitza/material-components-web/commit/4c405863bde72948dd131b07847b798cd8669764))
+* **button:** emit custom properties fill button theme-styles ([a80c8b2](https://github.com/mhitza/material-components-web/commit/a80c8b2c263b4f69a9df57e9837f7cb4ca438428))
+* **button:** m3 elevation + icon base theme modules ([2da3606](https://github.com/mhitza/material-components-web/commit/2da3606b97553ef152c9ef485432df2e0287b5de))
+* **button:** resolve elevation keys in theme mixin ([843342f](https://github.com/mhitza/material-components-web/commit/843342f99a2f76895fedb1ad1b2ff88a96b3fd7d))
+* **chips:** add focus ring styles ([783f6fd](https://github.com/mhitza/material-components-web/commit/783f6fd5a29a56f6c72917546b7426f196bf4cae))
+* **chips:** Add theming Sass mixin to MDC Filter Chip ([8390093](https://github.com/mhitza/material-components-web/commit/83900936a87a32accaab8bc8a1bdc5a998fcf18f))
+* **chips:** Add theming Sass mixin to MDC input & suggestion Chip ([860ad06](https://github.com/mhitza/material-components-web/commit/860ad06a1dd8bc76334ee5954109b4623f3682db))
+* **chips:** Added elevation tint layer color support in chips ([c78ff04](https://github.com/mhitza/material-components-web/commit/c78ff042967de7cf823a9f9826f8f613be9e4846))
+* **chips:** Added theme mixins to Assist Chip ([d4e16a6](https://github.com/mhitza/material-components-web/commit/d4e16a6c4876a3f144fdd1bade201f5b607b2bf6))
+* **chips:** Export all non-deprecated members through chips index ([8647986](https://github.com/mhitza/material-components-web/commit/864798678626ba41619324bcd10cf5e070bdd147))
+* **chips:** Rename action's exported members to avoid naming collisions ([b49359c](https://github.com/mhitza/material-components-web/commit/b49359c3581208ed7f84835c490a094699936f95))
+* **chips:** Rename chip set's exported members to avoid naming collisions ([13db34b](https://github.com/mhitza/material-components-web/commit/13db34b342741b4bc35b3c6a65a74e2291e41100))
+* **chips:** Rename chip's exported members to avoid naming collisions ([470bd34](https://github.com/mhitza/material-components-web/commit/470bd34e89b6683cd3a8f71bd1d3acfdf0aac5bf))
+* **data-table:** Implement row click feature to MDC data table ([8de07c0](https://github.com/mhitza/material-components-web/commit/8de07c02a50247f41cefcbd292b874b82f6d09b1))
+* **data-table:** use new select + list templates for pagination ([08398f8](https://github.com/mhitza/material-components-web/commit/08398f88046bfc1c3fad494b82c6e905d2fad890))
+* **dialog:** Add styling for floating sheets ([78305b6](https://github.com/mhitza/material-components-web/commit/78305b6d547b07aa06db04ad47b765b8f92851fa))
+* **dialog:** Add theme styles mixin to dialog ([21ece53](https://github.com/mhitza/material-components-web/commit/21ece536071235455a6905957f3c15dd3a7ddcf8))
+* **dialog:** Separate static styles from dialog core-styles mixin ([43d2eed](https://github.com/mhitza/material-components-web/commit/43d2eed2a908bae0d747b1ce4459b38cbd68c94a))
+* **fab:** create theming file for small fabs ([d082790](https://github.com/mhitza/material-components-web/commit/d082790f045f4542a5ebec082ba72ba0a106bcca))
+* **fab:** prepare fab-extended for theming in MWC ([ce25bc3](https://github.com/mhitza/material-components-web/commit/ce25bc3ecc6836d6c46e3789ff6eeb6faf7c07cf))
+* **iconbutton:** Add `.mdc-icon-button--display-flex` class that centers icon via flexbox. When using the new theme API, the icon button should have this class. ([8355e14](https://github.com/mhitza/material-components-web/commit/8355e14dc31c618a2102a846cd8cbefa08ad6007))
+* **iconbutton:** Add link icon button Sass. ([9803d2d](https://github.com/mhitza/material-components-web/commit/9803d2dc1c88e44b43a56249916f474581f5382e))
+* **iconbutton:** Add MDC theme mixin that declares custom properties. ([fa7520f](https://github.com/mhitza/material-components-web/commit/fa7520f6274cbab3ae7d8298554c4b0ff9e21a54))
+* **iconbutton:** Add theme styles mixin. ([65aa63b](https://github.com/mhitza/material-components-web/commit/65aa63b0ca587845437a4ee2a0b47556574d800b))
+* **menu:** Added getter method to check fixed position status of menu ([fb76c50](https://github.com/mhitza/material-components-web/commit/fb76c5069ebe5f62a1b01f6b2f4613d7c6bdeaae))
+* **menu:** Adds option to prevent focus from being restored after an item action. ([65084ba](https://github.com/mhitza/material-components-web/commit/65084baffaca256dd9eb77aae8fbafd379d8da00))
+* **menu:** allow preferentially opening surface below anchor ([261f2db](https://github.com/mhitza/material-components-web/commit/261f2db59382d561d6c89a7c41dafb6daad5a717))
+* **select:** start compatibility work for evolution lists ([e8554db](https://github.com/mhitza/material-components-web/commit/e8554dbbf4e9886dbf7a335c4953c1611c378b68))
+* **state:** make context aware ([b2fe352](https://github.com/mhitza/material-components-web/commit/b2fe3528bc1603df715c833abb5d905080681102))
+* **textfield:** adding input-font-family mixin ([991fb99](https://github.com/mhitza/material-components-web/commit/991fb99f715872b49c89c44a6c98e82b4507fd14))
+* **textfield:** adding input-font-size mixin ([207230e](https://github.com/mhitza/material-components-web/commit/207230eb81e8c10cd5f962725af8c0184b8f3b62))
+* add new class and mixin for open state of a menu item ([9a02b6e](https://github.com/mhitza/material-components-web/commit/9a02b6ef8e8f235c7bd07cd8c6ce9078a46dbb78))
+* Describe how to add child lists into a list item. ([758ce31](https://github.com/mhitza/material-components-web/commit/758ce31d94d065b93d09db0016ec86b56d9197ec))
+* **theme:** Added `validate-theme-keys()` mixin to validate theme keys only ([457d89a](https://github.com/mhitza/material-components-web/commit/457d89aadf13d719af27435758feb8f6e254fe1e))
+
+
+### BREAKING CHANGES
+
+* **menu:** Adds new menu adapter method:
+
+  /**
+   * @return the attribute string if present on an element at the index
+   * provided, null otherwise.
+   */
+  getAttributeFromElementAtIndex(index: number, attr: string): string|null;
+
+PiperOrigin-RevId: 398575780
+* **iconbutton:** MDC iconbutton `_index` Sass module will only export theme mixins.
+
+PiperOrigin-RevId: 391773229
+* **theme:** Renamed Sass mixins `validate-keys()` to `validate-theme()` in `@material/theme`
+
+PiperOrigin-RevId: 390671152
+* **fab:** Renamed Fab's mixins to deprecate legacy theme mixins.
+
+PiperOrigin-RevId: 387378201
+
+
+
+
+
 # [13.0.0](https://github.com/material-components/material-components-web/compare/v12.0.0...v13.0.0) (2021-09-24)
 
 
